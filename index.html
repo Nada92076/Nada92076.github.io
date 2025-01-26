@@ -54,10 +54,34 @@
             <p>I take this course because it is the only one that truly bridges the gap between academic learning and the real-world applications we will face in our careers. It offers a unique glimpse into the future by equipping us with the practical skills and knowledge needed for the challenges we will encounter in the industry. Software engineering is not just theoretical—it's a course that brings us closer to our reality, preparing us for the work we’ll be doing after graduation.</p>
         </section>
 
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+}
+
         <section class="fun-fact">
             <h2>Fun Fact</h2>
             <p>I have two Sun conures called Milo and Max</p>
         </section>
     </div>
+
+    <footer>
+    <p>Last Updated on <span id="last-updated"></span></p>
+</footer>
+
 </body>
 </html>
